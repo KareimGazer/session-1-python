@@ -21,6 +21,46 @@
     line by line in real-time.
 """
 
+# variable names are case sensitive
+# variable names must start with a letter or an underscore
+# variable names cannot start with a number
+# variable names can only contain alpha numeric characters and underscores
+# variables are a way to refer to data values
+# some words are reserved and cannot be used as variable names
+# meaning they are reserved for special use by the python language
+# A variable is a connection between a name in the code and some data in memory.
+
+# The reason we call it a variable is because it is able to vary. 
+# We can first say that this name refers to some data in one place in memory, 
+# but then later in our program we could change it so that the same name refers 
+# to some other data in a different location.
+# for example
+x = 10
+x = "hello"
+print(x)
+
+# that make python what is called a dynamically typed language
+# that means the type of the variable can be changed during the execution of the program (runtime)
+# the type of the variable is determined by the value assigned to it
+# for example
+x = 10 # int data type
+x = "hello" # str data type
+print(x)
+
+# there are other data types in python
+# for example
+x = 10 # int data type
+x = "hello" # str data type
+x = 10.5 # float data type
+x = True # bool data type
+x = None # None data type - no value
+# any other type of value not listed in these previous examples is a user defined data type (class)
+# meaning that it is a custom data type that we can define and use
+# and each value of that type is called an instance (object) of that class
+
+# spacing in python is important and is used to separate code into
+# different blocks of code (groups of statements) as we will see in loops and if statements
+
 # int values
 number = 3
 double_the_number = number * 2
@@ -48,6 +88,12 @@ name += " Doe" # add (concatenate) " Doe" to "john"
 print(name)
 
 print("Hi " * 3) # print "Hi " 3 times as a single string
+
+# error message does not mean you are a bad programmer
+# instead it means the computer can't understand your code
+# use errors to help yourself learn and grow
+
+# print(3 + "hello") # generates and error
 
 # =============== Float Values ==========
 # are real numbers
@@ -96,3 +142,6 @@ print(10 <= 3)
 
 x = None
 print(x)
+
+
+## ToDO: Type annotations

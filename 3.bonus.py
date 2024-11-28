@@ -1,3 +1,7 @@
+"""
+    bonus exercise
+"""
+
 # 1. Draw a house that has a triangular ceiling, 
 # a squared body, two circular windows, 
 # and one rectangular door.
