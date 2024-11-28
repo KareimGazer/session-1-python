@@ -2,6 +2,11 @@
 
 ## Concepts
 
+- variables
+- data types
+- memory and references
+- turtule graphics
+
 ## Extras
 
 ## Materials
