@@ -1,0 +1,1 @@
+# Exercise Python writing arithmetic operations while adding comments
